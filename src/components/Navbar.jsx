@@ -2,7 +2,7 @@ const Navbar = () => {
   const menuItems = ["about", "projects", "skills", "contact"];
 
   return (
-    <div className="navbar border-b-2 border-b-[#e0e0e0]">
+    <div className="navbar font-roboto font-medium border-b-2 border-b-[#e0e0e0]">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
