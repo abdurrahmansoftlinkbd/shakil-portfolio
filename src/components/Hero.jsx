@@ -8,13 +8,14 @@ const Hero = () => {
       <div className="hero-content text-center">
         <div className="max-w-lg">
           <h2 className="text-5xl font-bold text-zinc-950">I'm Shakil Ahmed</h2>
-          <div className="text-xl font-medium mt-6">
+          <div className="inline-flex gap-[7px] text-xl font-medium mt-6">
+            <span>Google</span>
             <Typewriter
               options={{
                 strings: [
-                  "Google Merchant Center Expert",
-                  "Google Shopping Ads Specialist",
-                  "Google Ads Product Feed Expert",
+                  "Merchant Center Expert",
+                  "Shopping Ads Specialist",
+                  "Ads Product Feed Expert",
                 ],
                 autoStart: true,
                 loop: true,
